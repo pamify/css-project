@@ -9,6 +9,14 @@
   margin-top: 30px;
 }
 
+.App img {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+}
+
 /* Logo */
 
 .logo {
@@ -60,4 +68,19 @@ li {
   border-radius: 20px;
   border: 2px solid hsl(0, 0%, 41%);
   padding: 14px 18px 14px 18px;  
+}
+
+/* Footer */
+
+.footer-container {
+  position: absolute;
+  left: 160px;
+  bottom: 280px;
+  width: 30%;
+  height: 2.5rem;
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
 }

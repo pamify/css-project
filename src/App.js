@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
 import Logo from './Logo';
-import Nav from './Navbar';
-
+import Navbar from './Navbar';
+import image from './image-hero-desktop.png';
+import Footer from './Footer';
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <Logo />
-      <Nav />
+      <Navbar />
+      <img src={image} alt='' />
+      <Footer />
     </div>
   );
 }
-
 export default App;
